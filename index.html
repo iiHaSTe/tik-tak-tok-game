@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML</title>
+  <link rel="stylesheet" href=" game style/style.css">
+  <link rel="stylesheet" href="game style/tabel.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="game style/point.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="game style/win.css" type="text/css" media="all" />
+</head>
+<body>
+  <div class="point">
+    <p class="x1">×</p><span class="xPoint">0</span> : <span class="oPoint">0</span> <p class="x2">o</p>
+  </div>
+  <div id="main">
+    <span id="span"></span>
+    <input type="checkbox" id="Seter" onclick="ll()"/> 
+  </div>
+  <div class="myAlert hide">
+    <div>
+        <span class="text1 hide">
+          x is win
+        </span><br/>
+        <span class="text2 hide">
+          +1 point
+        </span>
+    </div>
+  </div>
+  <button id="restart" class="restart hide">
+    RESTART
+  </button>
+  <div class="tabe">
+  <table border="1">
+    <tr>
+    <td class="top-td-left">
+      <button class="xo" id="1">1</button>
+    </td>
+    <td class="top-td">
+      <button class="xo" id="2">2</button>
+    </td>
+    <td class="top-td-right">
+      <button class="xo" id="3">3</button>
+    </td>
+    </tr>
+    <tr>
+    <td class="td-left">
+      <button class="xo" id="4">4</button>
+    </td>
+    <td class="td-center">
+      <button class="xo" id="5">5</button>
+    </td>
+    <td class="td-right">
+      <button class="xo" id="6">6</button>
+    </td>
+    </tr>
+    <tr>
+    <td class="end-td-left">
+      <button class="xo" id="7">7</button>
+    </td>
+    <td class="end-td">
+      <button class="xo" id="8">8</button>
+    </td>
+    <td class="end-td-right">
+      <button class="xo" id="9">9</button>
+    </td>
+    </tr>
+  </table>
+  </div>
+  <!-- Project -->
+  <script src="game script/main.js"></script>
+  <script src="game script/win.js"></script>
+  <script src="game script/restat.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
