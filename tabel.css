@@ -1,0 +1,40 @@
+table, tr, td{
+  border-color: white;
+}
+.tabe{
+  margin-top: 4.5rem;
+  border-radius: 10px;
+  margin-left: .5rem;
+  margin-right: .2rem;
+  padding: 0;
+  box-sizing: border-box;
+}
+table{
+  border: none;
+}
+td{
+  border-style: solid;
+}
+table *{
+  border-color: #8E8E8E;
+}
+.top-td, .top-td-right, .top-td-left{
+  border-top: none;
+  border-width: 2px;
+}
+.top-td-right, .td-right, .end-td-right{
+  border-right: none;
+  border-width: 2px;
+}
+.top-td-left, .td-left, .end-td-left{
+  border-left: none;
+  border-width: 2px;
+}
+.end-td, .end-td-left, .end-td-right{
+  border-bottom: none;
+  border-width: 2px;
+}
+.td-center{
+  border-style: solid;
+  border-width: 2px;
+}
